@@ -1,0 +1,128 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 42,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#b91c1c",
+      "buttonType": "SIMPLE",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Balção",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Balcão', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#b91c1f",
+      "buttonType": "SIMPLE",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Cozinha",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Cozinha', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "#b91c1c",
+      "buttonType": "SIMPLE",
+      "iconAlign": "left",
+      "id": "groupButton3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Entregas",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "First Option",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Second Option",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "backgroundColor": "#DD4B34",
+          "iconAlign": "right",
+          "iconColor": "#FFFFFF",
+          "iconName": "trash",
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Delete",
+          "onClick": "",
+          "textColor": "#FFFFFF",
+          "widgetId": ""
+        }
+      },
+      "onClick": "{{navigateTo('Entregas', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "k8t0b9nt3j",
+  "leftColumn": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 42,
+  "originalTopRow": 6,
+  "parentColumnSpace": 18.642578125,
+  "parentId": "n7g3krqgv3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 6,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "cvmqxcuzf0",
+  "widgetName": "ButtonGroup1"
+}

@@ -1,0 +1,1 @@
+SELECT * FROM pedidos WHERE estado_pedido = 1;

@@ -1,0 +1,2 @@
+INSERT INTO pedidos (data_pedido, quantidade, id_produto, pedidos_estado)
+VALUES ( '{{currentDate}}', '{{quantidade}}', '{{id_produto}}', '{{estado}}' );
